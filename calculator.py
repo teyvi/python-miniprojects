@@ -5,5 +5,5 @@ if unit.upper == "K":
    print("Weight in Lbs:" + converted)
 else:
     converted = weight * 0.45
-    print("Weight in Kgs:"+  str(converted)) 
+    print("Weight in Kgs:"+  str(converted)) #concatonate string
 
