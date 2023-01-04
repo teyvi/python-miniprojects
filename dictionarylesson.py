@@ -32,9 +32,7 @@ cpc= [809, 731, 588, 18, 200, 70, 45]
 
 # creating a manual dictionary
 my_dict= {
-'names':['United States', 'Australia', 'Japan', 'India', 'Russia', 'Morocco', 'Egypt'],
-'dr':[True, False, False, False, True, True, True],
-'cpc': [809, 731, 588, 18, 200, 70, 45]
+'country':names , 'drivers_right':dr , 'cars_per_cap':cpc
 }
 
 # building the dataframe called cars
