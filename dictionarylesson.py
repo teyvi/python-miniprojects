@@ -39,3 +39,8 @@ my_dict= {
 cars=pd.DataFrame(my_dict)
 
 print(cars)
+
+
+# experimenting with for loops
+for dr in names:
+    print(dr)
