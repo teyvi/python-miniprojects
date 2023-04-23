@@ -12,3 +12,14 @@ print(temperatures_ind.reset_index())
 
 # Reset the temperatures_ind index, dropping its contents
 print(temperatures_ind.reset_index(drop= True))
+
+#Subsetting with .loc[]
+
+# Make a list of cities to subset on
+cities = ["Moscow", "Saint Petersburg"]
+
+# Subset temperatures using square brackets
+print(temperatures[temperatures["city"].isin(cities)])
+
+# Subset temperatures_ind using .loc[]
+print(temperatures_ind.loc[cities])
