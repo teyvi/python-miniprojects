@@ -24,7 +24,7 @@ def unlocked_door():
 
 # check if door is unlocked
 if door_closed_status:
-	print('Its Open- Should I closed it?')
+	print('Its Open- Should I close it?')
 	locked_door()
 #advance code version can take an action to close the door
 
