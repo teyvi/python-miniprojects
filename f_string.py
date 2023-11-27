@@ -16,4 +16,7 @@ b = 'Hello, Miss %s \n %s! '% (LastName, EmailSubject)
 #print('Hello, {}! \n{}'.format(LastName, EmailSubject))
 
 #using positions
-print('Hello, {1} \n{0}'.format(EmailSubject, FirstName))
+#print('Hello, {1} \n{0}'.format(EmailSubject, FirstName))
+
+print("Balance: ${:.2f}".format(5425.9292))
+print("{:=^30}".format("Centered string"))
