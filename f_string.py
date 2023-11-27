@@ -6,5 +6,8 @@ EmailSubject = 'Welcome to the team'
 #single variable in string literal
 #print('Hello, %s' % FirstName)
 
-b = 'Hello, Miss %s \n %s ! '% (LastName, EmailSubject)
-print(b)
+b = 'Hello, Miss %s \n %s! '% (LastName, EmailSubject)
+#print(b)
+
+#using dictionaries
+print('Hello, %(LastName)s \n %(EmailSubject)s' % {'LastName':'Teyvi', 'EmailSubject':'Welcome to the team'})
